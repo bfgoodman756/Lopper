@@ -149,7 +149,10 @@ h6 {
   height: 100%;
   padding: 0 0 72px;
   overflow: hidden;
-  background: url("../images/header_background.png") no-repeat center; }
+  background-image: url("../images/header_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
   @media only screen and (min-width: 1440px) {
     .header {
       background-repeat: repeat; } }
@@ -344,7 +347,7 @@ h6 {
 .header__bottom_big-button {
   position: relative;
   display: flex;
-  right: 182px; }
+  right: 682px; }
   @media only screen and (max-width: 768px) {
     .header__bottom_big-button {
       margin-top: 40px; } }
@@ -358,7 +361,7 @@ h6 {
     font-family: "Muli Regular", sans-serif;
     display: flex;
     align-items: center;
-    padding: 20px 26px 20px 183px;
+    padding: 20px 26px 20px 683px;
     text-decoration: none;
     color: #fcfcfc;
     border: 1px solid rgba(255, 255, 255, 0.25);
