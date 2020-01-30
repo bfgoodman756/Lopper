@@ -246,7 +246,10 @@ h6 {
   height: 100%;
   padding: 0 0 72px;
   overflow: hidden;
-  background: url('../images/header_background.png') no-repeat center;
+  background-image: url('../images/header_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
   @include media-queries_1440-and-more {
     background-repeat: repeat;
@@ -500,7 +503,7 @@ h6 {
 .header__bottom_big-button {
   position: relative;
   display: flex;
-  right: 182px;
+  right: 682px;
 
   @include media-queries_768-and-less {
     margin-top: 40px;
@@ -517,7 +520,7 @@ h6 {
     font-family: "Muli Regular", sans-serif;
     display: flex;
     align-items: center;
-    padding: 20px 26px 20px 183px;
+    padding: 20px 26px 20px 683px;
     text-decoration: none;
     color: $primary-white;
     border: 1px solid rgba(255, 255, 255, .25);
